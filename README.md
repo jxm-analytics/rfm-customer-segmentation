@@ -95,10 +95,8 @@ Mapped RFMCode into 8 human-readable segments:
 
 ---
 
-## 📁 Files in This Repo
+## Files in This Repo
 
-| File | Description |
-|------|-------------|
 | File | Description |
 |------|-------------|
 | [`data/RFM_Segments.csv`](./data/RFM_Segments.csv) | Final result with segments |

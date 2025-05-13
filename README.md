@@ -17,7 +17,7 @@ This project applies RFM (Recency, Frequency, Monetary) analysis to group custom
 
 ---
 
-## 🔧 What I Did
+##  What I Did
 
 - Cleaned up raw transaction data (returns, invalid entries)
 - Created RFM metrics using SQL
@@ -26,7 +26,7 @@ This project applies RFM (Recency, Frequency, Monetary) analysis to group custom
 
 ---
 
-## 🧼 Data Cleaning
+##  Data Cleaning
 
 - Dropped:
   - Null or blank `CustomerID`, `InvoiceNo`, and `Description`
@@ -36,7 +36,7 @@ This project applies RFM (Recency, Frequency, Monetary) analysis to group custom
 
 ---
 
-## 📊 RFM Scoring Logic
+##  RFM Scoring Logic
 
 - Recency: Days since last purchase (based on max `InvoiceDate`)
 - Frequency: Count of distinct invoices
@@ -47,7 +47,7 @@ This project applies RFM (Recency, Frequency, Monetary) analysis to group custom
 
 ---
 
-## 🧩 Segmentation
+##  Segmentation
 
 Mapped RFMCode into 8 human-readable segments:
 
@@ -64,7 +64,7 @@ Mapped RFMCode into 8 human-readable segments:
 
 ---
 
-## 📈 Power BI Dashboard
+##  Power BI Dashboard
 
 - KPI cards showing:
   - Total Customers
@@ -87,7 +87,7 @@ Mapped RFMCode into 8 human-readable segments:
 
 ---
 
-## 🧰 Tools Used
+##  Tools Used
 
 - SQL Server
 - Power BI
@@ -107,7 +107,7 @@ Mapped RFMCode into 8 human-readable segments:
 
 ---
 
-## 🚀 Next Steps
+##  Next Steps
 
 - Add CLTV estimation to segment logic
 - Compare segment performance across time or region
@@ -115,7 +115,7 @@ Mapped RFMCode into 8 human-readable segments:
 
 ---
 
-## 👋 Let’s Connect
+##  Let’s Connect
 
 I'm actively learning and building. Reach out if you'd like to discuss the project or potential improvements.  
 [LinkedIn](https://www.linkedin.com/in/jake-ma-0a4278282/)

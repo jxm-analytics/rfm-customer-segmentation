@@ -79,7 +79,7 @@ Mapped RFMCode into 8 human-readable segments:
 
 ---
 
-## 🔍 Insights
+##  Insights
 
 - Loyal Customers and Others make up over half the customer base
 - Champions (~8%) contribute disproportionately to revenue

@@ -1,3 +1,4 @@
+![RFM Segmentation Banner](./screenshots/rfm-banner.png)
 # 🧠 Customer Segmentation with RFM Analysis
 
 This project applies RFM (Recency, Frequency, Monetary) analysis to group customers based on purchasing behavior. I used SQL for scoring, cleaned the data manually and with queries, and built a Power BI dashboard to show insights clearly.

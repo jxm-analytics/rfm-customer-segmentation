@@ -7,6 +7,7 @@ This project applies RFM (Recency, Frequency, Monetary) analysis to group custom
 
 ## 📌 Table of Contents
 - [What I Did](#what-i-did)
+- [Dataset](#dataset)
 - [Data Cleaning](#data-cleaning)
 - [RFM Scoring Logic](#rfm-scoring-logic)
 - [Segmentation](#segmentation)
@@ -24,6 +25,12 @@ This project applies RFM (Recency, Frequency, Monetary) analysis to group custom
 - Created RFM metrics using SQL
 - Assigned customers into 8 segments based on score combinations
 - Built a Power BI dashboard to explore customer behavior interactively
+
+---
+
+## 📥 Dataset
+
+This project uses the [UCI Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/Online+Retail), which contains over 500,000 transactions from a UK-based online retailer between 2010 and 2011.
 
 ---
 

@@ -75,7 +75,7 @@ Mapped RFMCode into 8 human-readable segments:
 - Detailed customer-level table with Recency, Frequency, Monetary
 
 📷 **Screenshot**  
-> 
+> ![Dashboard Overview](./screenshots/dashboard-overview.png)
 
 ---
 

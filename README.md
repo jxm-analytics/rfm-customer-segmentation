@@ -46,6 +46,27 @@ This project applies RFM (Recency, Frequency, Monetary) analysis to group custom
 - Reversed Recency score (lower is better → higher score)
 - Combined scores into RFMCode (e.g. `555`, `421`)
 
+Here's the SQL I used to calculate Recency, Frequency, and Monetary values:
+
+```sql
+SELECT 
+  CustomerID,
+  DATEDIFF(DAY, MAX(InvoiceDate), '2011-12-09') AS Recency,
+  COUNT(DISTINCT InvoiceNo) AS Frequency,
+  SUM(UnitPrice * Quantity) AS Monetary
+FROM TransactionsCleaned
+GROUP BY CustomerID;
+```
+To score them from 1 to 5, I used NTILE:
+```
+SELECT 
+  CustomerID,
+  6 - NTILE(5) OVER (ORDER BY Recency ASC) AS RecencyScore,
+  NTILE(5) OVER (ORDER BY Frequency ASC) AS FrequencyScore,
+  NTILE(5) OVER (ORDER BY Monetary ASC) AS MonetaryScore
+FROM RFMBase;
+```
+
 ---
 
 ##  Segmentation

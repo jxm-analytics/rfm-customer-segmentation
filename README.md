@@ -99,11 +99,13 @@ Mapped RFMCode into 8 human-readable segments:
 
 | File | Description |
 |------|-------------|
-| `RFM_Segments.csv` | Final result with segments |
-| `RFMBase.csv` | Cleaned Recency, Frequency, Monetary scores |
-| `PowerBI_RFM.pbix` | Full dashboard report |
-| `rfm-cleaning.sql` | SQL logic for cleaning, scoring, and segmentation |
-| `README.md` | You're reading it! |
+| File | Description |
+|------|-------------|
+| [`RFM_Segments.csv`](./RFM_Segments.csv) | Final result with segments |
+| [`RFMBase.csv`](./RFMBase.csv) | Cleaned Recency, Frequency, Monetary scores |
+| [`PowerBI_RFM.pbix`](./PowerBI_RFM.pbix) | Full dashboard report |
+| [`rfm-analysis.sql`](./rfm-analysis.sql) | SQL logic for cleaning, scoring, and segmentation |
+| [`README.md`](./README.md) | You're reading it! |
 
 ---
 

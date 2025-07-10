@@ -147,4 +147,4 @@ Mapped RFMCode into 8 human-readable segments:
 ##  Let’s Connect
 
 I'm actively learning and building. Reach out if you'd like to discuss the project or potential improvements.  
-[LinkedIn](https://www.linkedin.com/in/jake-ma-0a4278282/)
+[LinkedIn](https://www.linkedin.com/in/jakexm-analytics/)
